@@ -11,11 +11,11 @@ export default class App extends Component {
     return (
       <div className="App center dirDown">
         <Navbar />
-        <Landing/>
-        <Info/>
-        <OurProducts/>
-        <Map/>
-        <Contact/>
+        <Landing />
+        <Info />
+        <OurProducts />
+        <Map />
+        <Contact />
       </div>
     );
   }
