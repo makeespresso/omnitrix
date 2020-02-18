@@ -30,8 +30,8 @@ export default function Navbar() {
         </div>
       </div>
       <div id="links" className="navbar nb-comp">
-        <span>Sobre Nosotros</span>
-        <span>Contacto</span>
+        <span>< a href="#sobrenosotros">Sobre Nosotros</a></span>
+        <span>< a href="#contacto">Contacto</ a></span>
       </div>
     </div>
   );

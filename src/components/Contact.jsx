@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="innerContainer dirDown">
+    <div id="contacto" className="innerContainer dirDown">
       <h2>Contacto</h2>
       <div
         className="split center products"
