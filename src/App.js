@@ -5,17 +5,19 @@ import Info from "./components/Info";
 import OurProducts from "./components/OurProducts";
 import Map from "./components/Map";
 import Contact from "./components/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default class App extends Component {
   render() {
     return (
       <div className="App center dirDown">
-        <Navbar />
+        {/* <Navbar /> */}
         <Landing />
-        <Info />
+        {/* <Info />
         <OurProducts />
         <Map />
-        <Contact />
+        <Contact /> */}
       </div>
     );
   }
