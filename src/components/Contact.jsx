@@ -72,8 +72,6 @@ export default function Contact() {
             </ul>
           </div>
         </div>
-        <br></br>
-        <p>© 2020 Tienda Naturista Omnivita. Todos los Derechos Reservados.</p>
       </div >
     </>
   );

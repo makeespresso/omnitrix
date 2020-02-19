@@ -17,7 +17,7 @@ import Heroimages from '../assets/img/coverimage.jpeg';
 
 function FunCarousel() {
   return (
-    <div className="tester">
+    <div className=" tester">
       < Carousel >
         <Carousel.Item>
           <img className="carouselImg" src={Heroimages} alt="Omnivita" />

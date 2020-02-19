@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-// import Landing from "./components/Landing";
+import Footer from "./components/Footer";
 import Info from "./components/Info";
 import OurProducts from "./components/OurProducts";
 import Map from "./components/Map";
@@ -15,11 +15,11 @@ export default class App extends Component {
       <div className="App center dirDown">
         <Navbar />
         <Carousel />
-        {/* <Landing /> */}
         <Info />
         <OurProducts />
         <Map />
         <Contact />
+        <Footer />
       </div>
     );
   }

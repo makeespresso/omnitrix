@@ -46,7 +46,8 @@
 }
 
 .landing {
-  height: calc(100vh - 3rem);
+  /* height: calc(100vh - 3rem); */
+  height: 6vh;
   width: 100%;
   display: flex;
   flex-flow: column wrap;
@@ -59,8 +60,8 @@
 }
 
 .tester {
-  width: 90vw;
-  height: 100vh;
+  width: 100vw;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -70,7 +71,7 @@
 
 .carouselImg {
   object-fit: cover;
-  width: 90vw;
+  width: 100vw;
   height: 80vh;
 }
 
@@ -195,6 +196,7 @@ a:link, a:visited {
 
 .footer {
   background-color: rgb(7, 83, 32);
+  /* background-color: rgba(6, 96, 58, 100); */
   color: white;
   height: 40vh;
 }
@@ -219,13 +221,13 @@ a:link, a:visited {
 .StyleLista {
   font-weight: 700;
   color: #EEF5DB;
-  font-size: 1.2;
 }
 
 .banner {
-  width: 90vw;
+  width: 100vw;
   height: 20vh;
-  background-color: rgba(6, 96, 58, 100);
+  /* background-color: rgba(6, 96, 58, 100); */
+  background-color: rgb(7, 83, 32);
   display: flex;
   align-items: center;
 }
@@ -235,6 +237,19 @@ a:link, a:visited {
   text-align: center;
   margin: 0 auto;
   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+}
+
+a:link {
+  color: white;
+}
+
+a.li:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
