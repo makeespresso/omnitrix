@@ -7,9 +7,9 @@ import cart from '../assets/img/cart.png';
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <div id="logo" className="navbar nb-comp">
-        < a href="#home">
+    <div className="NavbarClass">
+      <div id="logo" className="NavbarClass nb-comp">
+        < a className="text-decoration-none" href="#home">
           <img
             className="logo"
             src={logoOmnivita}
@@ -17,7 +17,7 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <div id="social" className="navbar nb-comp">
+      <div id="social" className="NavbarClass nb-comp">
         <div className="icon">
           < a target="_blank" href="https://www.facebook.com/tiendanaturistaomnivita/"><img src={facebook} className="icon" alt="Facebook Page" /></a>
         </div>
@@ -29,10 +29,11 @@ export default function Navbar() {
           < a target="_blank" href="https://tiendanaturista-omnivita.mercadoshops.com.co/"><img src={cart} className="icon" alt="Shopping Cart" /></a>
         </div>
       </div>
-      <div id="links" className="navbar nb-comp">
-        <span>< a href="#sobrenosotros">Sobre Nosotros</a></span>
-        <span>< a href="#contacto">Contacto</ a></span>
+      <div id="links" className="NavbarClass nb-comp">
+        <span>< a href="#sobrenosotros" style={{ color: "inherit", textDecoration: "none" }}>Sobre Nosotros</a></span>
+        <span>< a href="#contacto" style={{ color: "inherit", textDecoration: "none" }} > Contacto</ a></span>
       </div>
     </div>
   );
 }
+

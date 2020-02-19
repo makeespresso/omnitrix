@@ -16,10 +16,10 @@ export default function Contact() {
           style={{ width: "80%", maxWidth: "820px", alignSelf: "center" }}
         >
           <div className="contact center" style={{ flex: 4 }}>
-            <ul>
+            <ul >
               <li>Encuéntranos al interior de</li>
               <br></br>
-              <a href="https://goo.gl/maps/YnYUjw9cd13AbRA86">
+              <a style={{ color: "inherit", textDecoration: "none" }} href="https://goo.gl/maps/YnYUjw9cd13AbRA86">
                 <li>
                   <img
                     style={{
@@ -36,7 +36,7 @@ export default function Contact() {
                 <li>Cali, Colombia.</li>
                 <br></br>
               </a>
-              <a target="_blank" href="mailto:omnivita.ventas@gmail.com">
+              <a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="mailto:omnivita.ventas@gmail.com">
                 <li className="center" style={{ justifyContent: "start" }}>
 
                   <img className="icon" src={Envelope} alt="Correo Electronico" />
@@ -44,7 +44,7 @@ export default function Contact() {
                   omnivita.ventas@gmail.com
               </li>
               </a>
-              <a href="tel:+573128140509">
+              <a style={{ color: "inherit", textDecoration: "none" }} href="tel:+573128140509">
                 <li className="center" style={{ justifyContent: "start" }}>
 
                   <img className="icon" src={Movil} alt="Télefono" />
