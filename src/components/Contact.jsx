@@ -17,7 +17,7 @@ export default function Contact() {
         >
           <div className="contact center" style={{ flex: 4 }}>
             <ul>
-              <li>Encuentranos al interior de</li>
+              <li>Encuéntranos al interior de</li>
               <br></br>
               <a href="https://goo.gl/maps/YnYUjw9cd13AbRA86">
                 <li>
@@ -72,6 +72,7 @@ export default function Contact() {
             </ul>
           </div>
         </div>
+        <br></br>
         <p>© 2020 Tienda Naturista Omnivita. Todos los Derechos Reservados.</p>
       </div >
     </>
