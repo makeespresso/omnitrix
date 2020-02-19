@@ -2,20 +2,23 @@
   margin: 0;
   padding: 0;
   font-weight: 100;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: rgb(240, 240, 240);
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.center p {
+  text-align: center;
 }
 
 .dirDown {
@@ -73,7 +76,7 @@
 
 .filler {
   flex: 1;
-  background-color: green;
+  background-color: rgb(7, 83, 32);
   color: white;
   font-size: 1rem;
 }
@@ -118,6 +121,17 @@
   font-size: 1.2rem;
   padding: 0 0 0.3rem 1rem;
   justify-self: center;
+}
+
+h2 {
+  color: rgb(7, 83, 32);
+  font-size: 2rem;
+}
+
+.Headersh2 {
+  color: rgb(7, 83, 32);
+  font-size: 2rem;
+  margin: 3rem;
 }
 
 .products {
@@ -177,6 +191,35 @@ a:link, a:visited {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(7, 83, 32);
+  color: white;
+  height: 40vh;
+}
+
+.footer p {
+  font-size: 10px;
+}
+
+.mapCenter {
+  height: 65vh;
+}
+
+.fontspace {
+  line-height: 1.5rem;
+}
+
+.StyleLi {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.StyleLista {
+  font-weight: 700;
+  color: #EEF5DB;
+  font-size: 1.2;
 }
 
 @media only screen and (min-width: 600px) {
