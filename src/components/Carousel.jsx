@@ -38,6 +38,9 @@ function FunCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel >
+      <div className="banner">
+        <p>Productos naturales de alta calidad para el cuidado de la salud.</p>
+      </div>
     </div>
   )
 }
